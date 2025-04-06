@@ -1,0 +1,9 @@
+
+[[language]]
+name = "python"
+language-servers = ["pyright"]
+auto-format = true
+
+# Or if you want Helix to keep using ruff as a linter only, 
+# you might leave that to a separate tool or an LSP plugin,
+# but do NOT put "ruff" in this list since it's not a real LSP.

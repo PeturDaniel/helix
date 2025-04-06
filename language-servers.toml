@@ -1,0 +1,8 @@
+[[language-server]]
+name = "pyright"
+command = "pyright-langserver"
+args = ["--stdio"]
+
+# (Optional) Root markers let Helix know where to start the server 
+# e.g., if you have a typical Python project structure:
+root-markers = ["pyproject.toml", "setup.py", "setup.cfg", "requirements.txt", ".git"]
