@@ -8,6 +8,12 @@ theme = "mocha_custom"
 
 [editor]
 line-number = "relative"
+end-of-line-diagnostics = "hint"
+
+[editor.lsp]
+display-inlay-hints = true
+display-messages = true
+auto-signature-help = true
 
 [editor.cursor-shape]
 insert = "block"
