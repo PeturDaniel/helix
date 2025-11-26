@@ -11,7 +11,7 @@ line-number = "relative"
 end-of-line-diagnostics = "hint"
 
 [editor.lsp]
-display-inlay-hints = true
+display-inlay-hints = false
 display-messages = true
 auto-signature-help = true
 
