@@ -1,4 +1,4 @@
-theme = "mocha_custom"
+theme = "dracula"
 
 [keys.insert]
 "C-\\" = "normal_mode"
