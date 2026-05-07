@@ -11,8 +11,3 @@ auto-format = true
 [[language]]
 name = "rust"
 
-[language-server.rust-analyzer.config]
-linkedProjects = [
-    "/Users/peturdaniel/Documents/fire/fire-stim/Cargo.toml",
-    "/Users/peturdaniel/Documents/fire/fire-stim/firmware/Cargo.toml"
-]
