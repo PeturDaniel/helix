@@ -11,3 +11,9 @@ auto-format = true
 [[language]]
 name = "rust"
 
+[language-server.merman-lsp]
+command = "merman-lsp"
+
+[[language]]
+name = "mermaid"
+language-servers = ["merman-lsp"]
